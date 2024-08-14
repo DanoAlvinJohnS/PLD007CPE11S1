@@ -1,0 +1,64 @@
+Name: Dano, Alvin John S.
+Program: CpE11S1
+Course: CPE 001
+
+=====================================================================================================================================================================================================================================================================================
+1.What is Computer?
+  Answer: A computer is an electronic device designed to process, managae and analzye data. Performing a range of tasks, from simple calculations to complex operations, based on the user instruction.
+=====================================================================================================================================================================================================================================================================================
+2.What are the essential parts of computer?
+  Answer: The essential parts of computer consist of: 
+      -CPU or Central Processing Unit that interprets and executes intrusction from programs.
+      -RAM or Random Access Memory where the computer temporarily stores data that is used or processed.
+      -Storage such as:
+          -HHDs or Hard drivers.
+          -SSDs or Solid-state drives.
+            That acts as a storage.
+      -Motherboard that act as a hourses to CPU, RAM, and other crucial componentrs.  
+      -PSU or Power Supply Unit that supply electrical power to the computer's components.
+      -Input Devices such as:
+          -Mouse (let's users interact with the graphical interface) and Keyboards (Allowing urses to input text and commands)
+      -Output Devices such as:
+          -Printer (Produces physical copies of digital documents), Speakers (Produces sounds), and Monitors(Displays visual output from the computer).
+      -GPU or Graphics Processing Unit
+      -Cooling System such as heat sink to remove heat from CPUE, GPU and other components.
+      -NIC or Network Interface Card that allows the computer cto connect to networks such as internet or localk area network (LAN).
+=====================================================================================================================================================================================================================================================================================
+3.Who are the notable inventors of hardware and software? Cite atleast (5) software developers and (5) hardware developers.
+  Answer:The (5) Software developers and (5)Hardware developers are.
+    Software developers
+        1.Bill Gates- 
+                  CO-founder of Microsoft, Bill Gates played a crucial role in the development and popularization of personal computing with Microsoft's Windows OPeration Systerm and office software (Wikipedia contributors, 2024).
+        2.Grace Hopper- 
+                  One of the main developer of Mark I computer in 1944, Her team able to create the earliers COBOL compiler in 1952, 
+                  With the creatiopn of COBOl it became possible for the first time in the world to create a software without having to basically tell it one instruction at the time (Quiles, 2019).
+        3.Gary Kildall-
+                  Main developer of the first BIOS for microcomputers, Turning into a first real microcomputer operationg system that runs based on operating system of Intel-Based 8-bit Microcomputers (Quiles, 2019).
+        4.Dennis Ritchie-
+                  One of the main developer of C languange, It used to create many types of applications and operationg system such as Windows, and other complicated programs (Ravikiran, 2024).
+        5.Bjarner Stroustrup-
+                  Developer of C++ programming language, Becoming one of the most influential programming languages in the history of computing (Georgiev, 2020).
+    Hardware developers
+        1.John Hennessy-
+                  Inventory of reduced instruction set computer (RISC) chips, increasing perfomances of a computer while reducing ccost that revolutionized the computer industry (Little, 2018)
+        2.James B. Keller-
+                  Lead architect of the AMD K8 Microarchitecture including the original Athlon 64m providing around 90% of the gaming performances of a single core, while being cheaper and offering all of the benefits of a dual core CPU (Wikipedia contributors, 2024b).
+        3.Gordon E. Moore-
+                  Creator of Moore's law, Co-founder of Intel Corporation, know for More's Law that predicts the doubling of transistor on a microchip approximately evrey two years, making power twice and cost cut in haflf in every two years (Science History Institute, 2024).
+        4.Andy Grove-
+                  Inventor of Intel Pentium Processor, A very crucial piece that impacted the development of microprocessors that power modern computing (The City College of New York, 2021).
+        5.Steve Jobs-
+                  The creator of Macintosh, Typography on screen, Mouse, iMac(1998), iPod(2001), iPad (2010) and the iconic iPhone (Conocimiento, 2018).
+=====================================================================================================================================================================================================================================================================================
+4.Cite your reference/s (APA/IEEE)
+  Answer. All APA 7th edition.
+    Conocimiento, V. A. (2018, August 29). The 5 “inventions” of Steve Jobs | OpenMind. OpenMind. https://www.bbvaopenmind.com/en/technology/visionaries/5-inventions-steve-jobs/
+    Georgiev, D. (2020, May 24). Top 10 software developers in the world. 💡👨‍💻 Iris - Software for Eye Protection, Health and Productivity 🛌👀. https://iristech.co/top-10-software-developers/
+    Little, B. (2018, June 6). John L. Hennessy. IEEE Computer Society. https://www.computer.org/profiles/john-hennessy
+    Quiles, L. (2019, February 1). Five Famous Software Engineers. Work With the Best. https://workwiththebest.intraway.com/blog-post/5-Famous-Software-Engineers
+    Ravikiran, A. S. (2024, July 23). Getting Started with C Programming: A Beginner’s Guide! Simplilearn.com. https://www.simplilearn.com/tutorials/c-tutorial/use-of-c-language
+    Science History Institute. (2024, April 25). Gordon E. Moore | Science History Institute. https://www.sciencehistory.org/education/scientific-biographies/gordon-e-moore/
+    The City College of New York. (2021). About Andy Grove. https://www.ccny.cuny.edu/engineering/about-andy-grove
+    Wikipedia contributors. (2024, August 3). Bill Gates. Wikipedia. https://en.wikipedia.org/wiki/Bill_Gates
+    Wikipedia contributors. (2024b, June 10). Jim Keller (engineer). Wikipedia. https://en.wikipedia.org/wiki/Jim_Keller_(engineer)
+=====================================================================================================================================================================================================================================================================================
