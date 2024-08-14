@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{ 
+        text-align: center;
+    }
+</style>
+    <meta charset="UTF-8" />
+    <h1 style="font-family: Arial, Helvetica, sans-serif;" style="color: darkblue;"><bold><font_style>T.I.P Mission and vision</bold></h1>
+    <p1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Vision We envision a better life for Filipinos by empowering our student with the best globally competititve technological education in engineering, computing, and allied disicplnes</p1>
+    <h2 style="font-family: Arial, Helvetica, sans-serif;" style="color: darkblue;"><bold>Mission</bold></h2>
+    <p1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Throught digitalization and innovation in academic design and delivery, T.I.P students, faculty, staff, and industry partners work together in both traditional and online/flexible learning to transform our student to achieve optimal student outcomes</p1>
+</head>
+<body>
+    
+</body>
+</html> 
