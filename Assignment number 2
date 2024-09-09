@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  //Local Variables
+  int num1 = 0, num2 = 0, num3 = 0;
+  float average = 0, sum = 0, product = 0, difference = 0, qab = 0, qbc = 0, qca = 0, qabc = 0;
+  cout << "Input num1: ";
+  cin >> num1;
+  cout << "Input num2: ";
+  cin >> num2;
+  cout << "Input num3: ";
+  cin >> num3;
+    
+  //Formula 
+  average = (num1 + num2 + num3) / 3.0;
+  sum = num1 + num2 + num3;
+  product = num1 * num2 * num3;
+  difference = num1 - num2 - num3;
+  
+  //Handle potential division by zero
+  if (num2 != 0) {
+    qab = (float) num1 / num2;
+  } else {
+    cout << "Error: You can't use 0 to divide or as value on Division." << endl;
+  }
+  if (num3 != 0) {
+    qbc = (float) num1 / num3;
+    qca = (float) num2 / num3;
+  } else {
+    cout << "Error: You can't use 0 to divide or as value on Division." << endl;
+  }
+  
+  //Calculate qabc only if all divisors are non-zero
+  if (num2 != 0 && num3 != 0) {
+    qabc = (qab + qbc + qca) / 3.0;
+    cout << "The total quotient of the 3 numbers is: " << qabc << endl;
+  } else {
+    cout << "Error: You can't use 0 to divide or as value on Division." << endl;
+  }
+
+  //Printing Results
+  cout << "Sum = " << sum << endl;
+  cout << "Product = " << product << endl;
+  cout << "Difference = " << difference << endl;
+  if (num2 != 0) {
+    cout << "Quotient num1/num2 = " << qab << endl;
+  }
+  if (num3 != 0) {
+    cout << "Quotient num1/num3 = " << qbc << endl;
+    cout << "Quotient num3/num1 = " << qca << endl;
+  }
+  cout << "Average = " << average << endl;
+
+  //If else
+  if (num1 > 50) {
+    cout << "The input is greater than 50" << endl;
+  } else {
+    cout << "The input is less than or equal to 50" << endl;
+  }
+  return 0;
+}
