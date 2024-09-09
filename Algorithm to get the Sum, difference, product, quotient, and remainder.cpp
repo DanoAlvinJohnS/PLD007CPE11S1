@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  cout << "\nAlgorithm to get the Sum, difference, product, quotient, and remainder \n"<<endl;
+  cout << "\nAlgorithm to get the Sum, difference, product, quotient, and remainder of two intigers\n"<<endl;
   //Local Variables
   int x = 5, y = 2, sum = 0, product = 0, difference = 0;
   float quotient = 0, remainder = 0;
