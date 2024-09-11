@@ -6,7 +6,7 @@ int main()
 
 //initialization of the value
 
-  float x;
+  float grade;
   char cont = 'y'; 
   char cont2 = 'n';
   while (cont == 'y')
@@ -14,46 +14,61 @@ int main()
 //Conditions
 
   {  
-    cout<<"Enter your grade: "<<endl;
-    cin>>x;
-    if (x >= 94 && x <= 100){
+    cout<<"\nEnter your grade: ";
+    cin>>grade;
+    if (grade >= 94 && grade <= 100){
       cout<<"Excellent"<<endl;
+    cout<<"Remarkable!! Your GPA is 1!"<<endl;
+    cout<<"You are Qualified to be a Suma Cum laude"<<endl;  
     }  
-    else if (x >= 88.5 && x <= 93.99){
+    else if (grade >= 88.5 && grade <= 93.99){
       cout<<"Superior"<<endl;
+    cout<<"Extraodinary! Your GPA is 1.75"<<endl;
+    cout<<"You are Qualified to be a Magna Cum laude"<<endl;
     }
-    else if (x >= 83 && x <= 88.49 ){
+    else if (grade >= 83 && grade <= 88.49 ){
       cout<<"Meritorious"<<endl; 
+      cout<<"Incredible! You have a GPA of 1.50"<<endl; 
+      cout<<"You are Qualified to be a Magna Cum laude"<<endl;
     }
-    else if (x >= 77.5 && x <= 82.99 ){
-      cout<<"Very Good"<<endl; 
+    else if (grade >= 77.5 && grade <= 82.99 ){
+      cout<<"Very Good"<<endl;
+    cout<<"Impressive! Your GPA is 1.75"<<endl;
+      cout<<"You are Qualified to be a Cum laude"<<endl;  
     }    
-    else if (x >= 72 && x <= 77.49){
+    else if (grade >= 72 && grade <= 77.49){
       cout<<"Good"<<endl; 
-    }
-    else if (x >= 65.5 && x <= 71.99){
+      cout<<"Decent! Your GPA is 2.00"<<endl; 
+      cout<<"You are Qualified to be Cum laude"<<endl;  
+   }
+    else if (grade >= 65.5 && grade <= 71.99){
       cout<<"Very Satisfactory"<<endl; 
+      cout<<"Your GPA is 2.25"<<endl; 
     }
-    else if (x >= 61 && x <= 65.49){
+    else if (grade >= 61 && grade <= 65.49){
       cout<<"Satisfactory"<<endl;
+      cout<<"Your GPA is 2.50"<<endl; 
     }
-    else if (x >= 55.5 && x <= 60.99){
+    else if (grade >= 55.5 && grade <= 60.99){
       cout<<"Fair"<<endl; 
+      cout<<"Your GPA is 2.75"<<endl; 
     }
-    else if (x >= 50 && x <= 55.49){
+    else if (grade >= 50 && grade <= 55.49){
       cout<<"Passing"<<endl; 
+      cout<<"Your GPA is 3.00-4.00"<<endl;
     }
-    if (x >= 0.1 && x <= 49.99){
-      cout<<"Failed"<<endl; 
+    if (grade >= 0.1 && grade <= 49.99){
+      cout<<"Failed"<<endl;
+    cout<<"Your GPA is 5.00-8.00"<<endl; 
     }
-     cout<<"Do you want to continue? Y/N"<<endl;
+     cout<<"\nDo you want to continue? Y/N"<<endl;
     cin>>cont;
-    }
+  }
 //If No
       while (cont2 == 'n')
   {
     cout<<"\nThank you for testing!";
-    return 0;
+    cont2 = 'y';
   } 
-
-}
+  return 0;
+  }
