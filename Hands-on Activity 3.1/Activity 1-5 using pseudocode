@@ -1,0 +1,140 @@
+Activity 1
+start
+variable s_balance, t_balance, c_balance, n_balance as float with .2% and account_number as integers
+while (true)
+    input account_number
+    if account_number = -1 THEN
+        break
+    endif
+    input s_balance
+    input t_charges
+    input t_credits
+    input c_limit
+    n_balance = b_balance + t_charges - t_credits
+    if n_balance is greater than credit_limit then
+        display a_number, c_limit, n_balance, "Credit limit exceeded."
+    endif
+endwhile
+printing "Thank you for using this program!"
+end
+
+Activity 2
+start
+count = 0 as integers and gallons_used, miles_driven, mpg, total_mpg = 0 as float
+while true
+    input gallons_used
+    if gallons_used = -1 THEN
+        print thank you for using this program
+	BREAK
+    endif
+    input miles_driven
+    mpg = miles_driven / gallons_used
+    print "The miles / gallon for this tank was", mpg
+    total_mpg = total_mpg + mpg
+    count = count + 1
+endwhile
+if count > 0 then
+    average_mpg = total_mpg / count
+    print "The overall average miles/gallon was", average_mpg
+endif
+end
+
+Activity 3
+start
+while true
+input weight
+if weight = -1 then
+    break
+else if weight <= 300 then
+    cost = 5.00
+else
+    cost = 5.00 + (CEILING((weight - 300) / 100) * 2.00)
+endif
+print "The cost of sending the parcel is", cost
+end
+
+Activity 4
+start
+choice as input, float as value and result, and char as result
+do 
+    print menu (such as 1.cm to inch, 2. inch to cm, 3.feet to meter, 4.meter to feet, 5.exit)
+    input choice
+    if choice is valid then
+	input value
+        convert value based on choice
+        print result
+    else
+	print thank you for using this program
+        BREAK
+    ENDIF
+switch
+	option1 for cm to inch
+	process value/2.54
+	print result 
+	break;
+
+	option2 for inch to cm
+	process value*2.54	
+	print result 
+	break;
+
+	option3 for feet to meter
+	process value/0.3048
+	print result 
+	break;
+
+	option4 for meter to feet
+	process value*0.3048
+	print result 
+	break;
+
+	default
+	print invalid choice
+print would you like to repeat the process? 
+	accept user input and put on repeat
+	if repeat is true (input y or Y) then go back to line 3
+print thank you for using this program!
+end
+
+Activity 5
+start
+while true
+    print menu (1. for area of circle, 2. for area of rectangle, 3. for area of triangle, 4. for area of square and 5. for exit
+    input choice
+    if choice is valid then
+	switch
+        	option1 for circle
+		Print enter radius 
+		input radius
+		area = M_PI(pie)*radius*radius
+		print result, area
+		break;
+
+        	option2 for rectangle
+		Print enter length and witdh
+		input length and witdh
+		area = length * witdh
+		print result, area
+		break;
+
+        	option3 for triangle
+		Print enter base and height
+		input base and height
+		area = 0.5*base*height
+		print result, area
+		break;
+
+        	option4 for square
+		Print enter side length
+		input radius
+		area = M_PI(pie)*radius*radius
+		print result area
+		break;
+		
+		default or others
+		print thank you for using this program!
+		break
+    endif
+endwhile
+end
+
