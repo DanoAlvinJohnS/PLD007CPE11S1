@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+// Function convert dollars to pesos
+double dollarsToPesos(double dollars) {
+    double conversionRate = 18.0; // 1 USD = 18 Pesos
+    return dollars * conversionRate;
+}
+
+// Function convert pesos to dollars
+double pesosToDollars(double pesos) {
+    double conversionRate = 18.0; // 1 USD = 18 Pesos
+    return pesos / conversionRate;
+}
+
+int main() {
+    int choice; char resume;
+    double amount;
+
+ while (true){
+
+    cout << "Currency Convertion\n1. Convert Dollars to Pesos\n2. Convert Pesos to Dollars" << endl;
+    cout << "Enter your choice (1 or 2): ";
+    cin >> choice;
+
+    // Perform the conversion based on the user's choice
+    if (choice == 1) {
+        cout << "Enter the amount in dollars: ";
+        cin >> amount;
+        double result = dollarsToPesos(amount);
+        cout << amount << " dollars is equal to " << result << " pesos." << endl;
+    }
+    else if (choice == 2) {
+        cout << "Enter the amount in pesos: ";
+        cin >> amount;
+        double result = pesosToDollars(amount);
+        cout << amount << " pesos is equal to " << result << " dollars." << endl;
+    }
+    else {
+        cout << "Invalid choice. Please run the program again." << endl;
+    }
+	cout << "Resume?[Y/N]: "; cin >> resume;
+	cout << endl;
+}
+
+
+    return 0;
+}
