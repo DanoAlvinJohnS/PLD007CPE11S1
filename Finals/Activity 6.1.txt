@@ -1,44 +1,32 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-int add(int a, int b) {
-    return a + b;  // Adding the numbers
+int add(int a, int b) { 
+    return a + b; 
+}
+int sub(int a, int b) { 
+    return a - b; 
+}
+float div(float a, float b) {
+     return a / b; 
+}
+int multi(int a, int b) { 
+    return a * b; 
 }
 
-int sub(int a, int b) {
-    return a - b;  // Subtracting the numbers
-}
-float div(float a,float b) {
-	return a / b; // Divides the numbers
-}
-int multi(int a,int b) {
-	return a * b; // Multiply the numbers
-	}
+int main() {
+    int a, b;
 
-int add (int a, int b);
-int sub (int a, int b);
-float div (float a, float b);
-int multi (int a, int b);
+    cout << "Enter first number: ";
+    cin >> a;
 
-int main(){
-	int a, b;
-    cout << "Enter first number: "; 
-	cin >> a;
-    cout << "Enter second number: "; 
-	cin >> b;
+    cout << "Enter second number: ";
+    cin >> b;
 
-	//Addition
-	cout << "the Sum of: "<< a <<" and "<< b<<" is: "<< add(a,b)<<endl;
+    cout << "The Sum of: " << a << " and " << b << " is: " << add(a, b) << endl;
+    cout << "The Difference of: " << a << " and " << b << " is: " << sub(a, b) << endl;
+    cout << "The Division of: " << a << " and " << b << " is: " << div((float)a, (float)b) << endl;
+    cout << "The Product of: " << a << " and " << b << " is: " << multi(a, b) << endl;
 
-	//Subtraction
-	cout << "the Difference of: "<< a << " and "<< b << " is: "<< sub(a,b)<<endl;
-
-	//Division
-	cout << "the Division of: "<< a << " and " << b << " is " << div(a,b)<<endl;
-
-	//Multiplication
-	cout << "the Product of: " << a << " and " << b << " is " << multi(a,b)<<endl;
-
-	return 0;
+    return 0;
 }
